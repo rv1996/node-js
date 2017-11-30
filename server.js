@@ -23,7 +23,7 @@ var server = http.createServer(function(req, res) {
     console.log("A request was made - ".concat(req.url));
     res.writeHead(200, { 'Content-Type': 'text/html' });
 
-    var myReadStream = fs.createReadStream(__dirname + '/lorem.txt', 'utf8');
+    var myReadStream = fs.createReadStream(__dirname + '/templates/index.html', 'utf8');
 
     //var myWriteStram = fs.createWriteStream(__dirname + '/writestream.txt')
     // above stream is not required be res object is already a writeable stream we just have to
