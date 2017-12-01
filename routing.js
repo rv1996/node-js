@@ -17,7 +17,6 @@ var server = http.createServer(function(req, res) {
         var readStream = fs.createReadStream(__dirname + '/templates/index.html', 'utf8');
 
         readStream.pipe(res);
-
     }
 
 

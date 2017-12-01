@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "My node js testing app as an entry level",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rv1996/node-js.git"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "Rupanshu Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rv1996/node-js/issues"
+  },
+  "homepage": "https://github.com/rv1996/node-js#readme"
+}
